@@ -92,5 +92,7 @@ def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
 
 filtered = cityreader_stretch(int(lat1), int(lon1), int(lat2), int(lon2), cities)
 
+print(len(filtered))
+
 for i in filtered:
   print(i)
